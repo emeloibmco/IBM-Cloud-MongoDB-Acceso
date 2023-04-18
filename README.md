@@ -15,6 +15,13 @@ En esta guía se presenta un paso a paso para crear y acceder a una instancia de
 
 ## Creación de una instancia de Databases for MongoDB :cloud:
 
+1. Ingrese a su cuenta en [IBM Cloud](cloud.ibm.com), en el catálogo seleccione el servicio [Databases for MongoDB](https://cloud.ibm.com/databases/databases-for-mongodb/create?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2FY2F0ZWdvcnk9ZGF0YWJhc2Vz)
+
+2. Asigne un nombre a su instancia, un grupo de recursos y una ubicación. Para la selección de los recursos de la instancia, puede seleccionar una de las opciones presentadas o dar click en la pestaña **Custom** para definir tamaños personalizados.
+
+<img width="800" alt="" src="img/cloud1create.png"> 
+
+Dé click en **Create**. El aprovisionamiento de su instancia demorará al rededor de 30 minutos.
 
 ## Conexión a MongoDB por medio del cliente MongoDB Compass :leaves:
 
