@@ -23,13 +23,25 @@ En esta guía se presenta un paso a paso para crear y acceder a una instancia de
 
 Dé click en **Create**. El aprovisionamiento de su instancia demorará al rededor de 30 minutos.
 
+3. Luego de que se complete el despliegue de su instancia, ingrese a la sección **Settings** que encuentra en el menú de la izquierda. Acá podrá digitar la contraseña de acceso que desee asignar a su instancia, luego de esto dé click en **Change Password**. Le aparecerá un anuncio de cambio de contraseña, dé click en aceptar.
+
+<img width="800" alt="" src="img/cloud2password.png"> 
+
+4. Ingrese a la sección **Overview** disponible en el menú de la izquierda.
+
+<img width="800" alt="" src="img/cloud3overview.png"> 
+
+Posteriormente, desplácese a la parte inferior de la pantalla, sección **Endpoints**. Acá encontrará una sección llamada **Connect using a MongoDB Client**. Descargue el certificado TLS y copie la URI de acceso.
+
+<img width="800" alt="" src="img/cloud4client.png">
+
 ## Conexión a MongoDB por medio del cliente MongoDB Compass :leaves:
 
 1. Acceda a MongoDB Compass, le aparecerá por defecto la pantalla de creación de una nueva conexión.
 
 <img width="800" alt="" src="img/client1nuevaconexion.png"> 
 
-2. En el cuadro de texto ingrese la URI de su instancia de MongoDB
+2. En el cuadro de texto ingrese la URI de su instancia de MongoDB, la cual copió en el paso 4 de la sección anterior.
 
 <img width="800" alt="" src="img/client2uri.png"> 
 
@@ -48,6 +60,8 @@ El usuario por defecto es ```admin```
 <img width="800" alt="" src="img/client5tlscertificate.png"> 
 
 6. Dé click en **Connect**, de esta forma ya tendrá acceso a su instancia de Databases for MongoDB desde el cliente instalado en su equipo.
+
+<img width="800" alt="" src="img/client6final.png"> 
 
 ## Autores :black_nib:
 Equipo IBM Cloud Tech Sales Colombia
