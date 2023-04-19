@@ -33,7 +33,7 @@ Dé click en **Create**. El aprovisionamiento de su instancia demorará al reded
 
 Posteriormente, desplácese a la parte inferior de la pantalla, sección **Endpoints**. Acá encontrará una sección llamada **Connect using a MongoDB Client**. Descargue el certificado TLS y copie la URI de acceso.
 
-<img width="800" alt="" src="img/cloud4client.png">
+<img width="400" alt="" src="img/cloud4client.png">
 
 ## Conexión a MongoDB por medio del cliente MongoDB Compass :leaves:
 
